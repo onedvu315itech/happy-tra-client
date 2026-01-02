@@ -25,31 +25,34 @@
     "baseUrl": "./",
     "paths": {
       "@public/*": [
-        "public"
+        "public/*"
       ],
-      "@apps/*": [
-        "src/apps"
+      "@app/*": [
+        "src/app/*"
       ],
       "@pages/*": [
-        "src/pages"
+        "src/pages/*"
+      ],
+      "@components/*": [
+        "src/shared/components/*"
       ],
       "@configs/*": [
-        "src/shared/configs"
+        "src/shared/configs/*"
       ],
       "@hooks/*": [
-        "src/shared/hooks"
+        "src/shared/hooks/*"
       ],
       "@layouts/*": [
-        "src/shared/layouts"
+        "src/shared/layouts/*"
       ],
       "@services/*": [
-        "src/shared/services"
+        "src/shared/services/*"
       ],
       "@uis/*": [
-        "src/shared/uis"
+        "src/shared/uis/*"
       ],
       "@utils/*": [
-        "src/shared/utils"
+        "src/shared/utils/*"
       ],
     }
   },
@@ -59,8 +62,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts",
-    "src"
+    "**/*.mts"
   ],
   "exclude": [
     "node_modules"
