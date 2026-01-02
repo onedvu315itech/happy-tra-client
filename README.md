@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Happy Tra Client
 
-## Getting Started
+This repository is a frontend web application based on Next.js which creates a simple monolithic architecture. This app uses for order management by F&B store named Happy.
 
-First, run the development server:
+# Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Folder Structure](#folder-structure)
+- [Ecosystem](#ecosystem)
+- [Technology Stack](#technology-stack)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Folder Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Ecosystem
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Generics (Required):
 
-## Learn More
+- [ReactJS](https://react.dev/)
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/)
+- [Axios](https://axios-http.com/docs/intro)
 
-To learn more about Next.js, take a look at the following resources:
+ASP.NET Core server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Happy-Tra-Server](https://dev.azure.com/happy-fnb-system/HappyTra)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technology Stack
 
-## Deploy on Vercel
+- ASP.NET Core 9.0
+- ReactJS 19.2.x + TypeScript 5.x.x
+- NextJS 16.1.1
+- SQL Server 2025
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
