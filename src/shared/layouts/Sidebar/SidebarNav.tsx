@@ -31,7 +31,7 @@ interface SidebarNavProps {
 
 export const SidebarNav = React.memo(({ activeKey }: SidebarNavProps) => {
   return (
-    <ul className="space-y-1">
+    <ul className="flex flex-col gap-4">
       {APP_MODULE_LIST.map((module) => (
         <li key={module.key}>
           <SidebarItem

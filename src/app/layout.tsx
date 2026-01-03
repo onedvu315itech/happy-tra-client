@@ -3,8 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 
 import "./globals.css";
 
-import { Sidebar } from "@layouts/Sidebar";
 import { ThemeProvider } from "@configs/ThemeProvider";
+import { SidebarProvider } from "@contexts/SidebarContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,12 +24,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased)`}>
-        <div className="min-h-screen bg-(--bg-secondary)">
-          <ThemeProvider>
-            <Sidebar />
-            <main className="relative flex-1 ml-64 bg-(--bg-primary)">{children}</main>
-          </ThemeProvider>
-        </div>
+        <ThemeProvider>
+          <SidebarProvider>{children}</SidebarProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
