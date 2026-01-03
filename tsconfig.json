@@ -39,6 +39,9 @@
       "@configs/*": [
         "src/shared/configs/*"
       ],
+      "@contexts/*": [
+        "src/shared/contexts/*"
+      ],
       "@hooks/*": [
         "src/shared/hooks/*"
       ],
